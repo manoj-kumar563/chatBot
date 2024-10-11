@@ -1,0 +1,118 @@
+
+body {
+    font-family: serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+.welcome-first-message{
+    margin-top: 15px;
+    display: flex;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border: 1px solid #849aeb;
+    background-color: #cfe7f5;
+    border-radius: 4px;
+    padding-left: 10px;
+    width: fit-content;
+}
+
+.welcome-message{
+   
+    display: flex;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    padding-left: 10px;
+    width: fit-content;
+}
+
+.welcome-message-header{
+    background-color: #cfe7f5;
+}
+.chat-container{
+    width: 60vw;
+    height: 70vh;
+}
+.chatbot-img-section{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #849aeb;
+    background-color: #bedcf5;
+  
+    padding-left: 10px;
+}
+
+.stock-exchange-section{
+    display: flex;
+    border: 1px solid rgb(173, 207, 252);
+    flex-direction: column;
+    border-radius: 12px;
+}
+    
+.label-text{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 1px solid #d7d7df;
+    text-align: center;
+    color: darkgreen;
+}
+.label-stock-text{
+    font-family: serif;
+    font-size: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 1px solid #d7d7df;
+    text-align: center;
+    color: darkgreen;
+}
+.label-text  :hover{
+    color: rgb(9, 113, 233);
+}
+.second-section{
+    margin-top: 10px;
+}
+.third-section{
+    margin-top: 10px; 
+}
+.selected-exchange-label{
+    text-align: right;
+    width: inherit;
+    color: black;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.selected-stock-label{
+    text-align: end;
+    color: black;
+   
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.chatbot-icon{
+    vertical-align: middle;
+    height:"30px";
+     width:"30px" 
+}
+.exchange-label{
+    margin-top: 5px;
+    padding-top: 3px;
+    background-color: #cdd1d1;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
