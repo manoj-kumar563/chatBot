@@ -18,8 +18,13 @@ export class AppComponent implements OnInit {
   stockExchangeSelected: boolean =false;
   stockSelected: boolean =false;
   selectedStockPrice: number = 0;
+  welcomeMessage: string='';
   ngOnInit(){
-      this.stockExchangeData =stockDataDetails;
+    setTimeout(()=>{
+      this.welcomeMessage = 'Hello! welcome to LSEG. I am here to help you.';
+      this.stockExchangeData = stockDataDetails;
+    },1000)
+     
     }
 
   fetchStockDetails(stockData : IStockData):void{

@@ -15,9 +15,9 @@
   <div >
    
     <div class="chat-box" id="chat-box">
-      <label class="welcome-first-message">Hello! welcome to LSEG. I am here to help you.</label>
+      <label class="welcome-first-message">{{welcomeMessage}}</label>
   </div>
-  <div class="stock-exchange-section">
+  <div class="stock-exchange-section" *ngIf="welcomeMessage">
     <div class="welcome-message-header">
       <label class="welcome-message">Please select a stock Exchange</label>
     </div>
@@ -46,8 +46,8 @@
       </div>    
   </div>
 
-  <div class="selected-stock-label"  *ngIf="selectedStockExchange">
-    <label>{{selectedStockName}}</label>
+  <div class="selected-stock-label"  *ngIf="selectedStockName">
+    <label class="exchange-label">{{selectedStockName}}</label>
   </div>
 
   <div class="stock-exchange-section third-section" *ngIf="selectedStockName && selectedStockPrice">
